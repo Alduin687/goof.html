@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Barlow";
+    box-sizing: border-box;
+}
+
+    /* font-weight: 100;
+    font-style: normal;
+    saving that 4 later */
+
+:root {
+    --black: #000;
+    --white: #FFF;
+    --off-white: #FAF9F6;
+    --gray: #BFBFBF;
+    --red: #EA1022;
+    --blue: #1A00FF;
+    --dark-gray: #393939;
+    --dull-red: #bc8888;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* columns and rows */
+
+.col {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.one-fifth {
+    display: flex;
+    width: calc(100% / 5.2);
+}
+
+/* PURELY NAV BAR HERE */
+nav {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--black);
+    color: var(--white);
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 1vw;
+    align-items: center;
+}
+
+.nav-deco {
+    display: flex;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 2.5vw;
+}
+
+.selected {
+    display: flex;
+    color: var(--dull-red);
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 2.5vw;
+}
+
+.nav-big {
+    display: flex;
+    text-decoration: underline;
+    text-decoration-color: var(--red);
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 4.5vw;
+}
+
+.search-deco {
+    display: flex;
+    text-decoration: underline;
+    text-decoration-color: var(--gray);
+    margin: 1.5rem;
+    padding: 1rem;
+    font-size: 2.5vw;
+}
+
+input {
+    display: flex;
+    max-width: 13%;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    color: var(--white);
+}
+
+
+.nav-img-right {
+    display: flex;
+    width: 6%;
+    height: 6%;
+    object-fit: contain;
+    margin-left: 5%;
+}
+
+.nav-img-left {
+    display: flex;
+    width: 6%;
+    height: 6%;
+    object-fit: contain;
+    margin-right: 5%;
+}
+/* END OF NAV BAR */
+
+/* footer start */
+footer {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--black);
+    color: var(--white);
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 2vw;
+    align-items: center;
+    margin-top: 100%;
+}
+
+footer > section:nth-child(1) {
+    display: flex;
+    margin-bottom: 4vw;
+}
+
+footer > section:nth-child(1) > img {
+    display: flex;
+    min-width: 8vw;
+}
+
+footer > section:nth-child(2) {
+    display: flex;
+    margin-top: 5vw;
+}
+
+footer > section:nth-child(2) > img {
+    display: flex;
+    min-width: 7vw;
+}
+
+footer > section:nth-child(2) > a {
+    display: flex;
+    margin-bottom: 1.5vw;
+}
+
+footer > section:nth-child(3) {
+    display: flex;
+    margin-top: 5vw;
+}
+
+footer > section:nth-child(4) {
+    display: flex;
+    margin-top: 5vw;
+}
+
+footer > section:nth-child(5) > img {
+    display: flex;
+    max-width: 6vw;
+    margin-bottom: 3vw;
+}
+
+.footer-icon {
+    display: flex;
+    width: 6vw;
+}
+
+.one-fifth > a {
+    display: flex;
+    font-size: 1.5vw;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+section > a {
+    padding: 4rem;
+}
+/* footer end */
+
