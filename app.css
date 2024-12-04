@@ -200,16 +200,16 @@ section > a {
     padding: 4rem;
 }
 /* footer end */
-
+/*start for BLACK WIDOW CSS*/
 section{
     
 }
 body.html{
-height:;
+height: 50px;;
 }
 .hero-image{
- background-image: ;
- height:;
+ background-image: "Images/Screenshot 2024-12-04 131455.png";
+ height:50px;
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -220,3 +220,4 @@ height:;
 section{ 
 
 }
+/*BWC END*/
