@@ -200,24 +200,21 @@ section > a {
     padding: 4rem;
 }
 /* footer end */
+
 /*start for BLACK WIDOW CSS*/
 section{
-    
+    display: flex;
 }
-body.html{
-height: 50px;;
+section.center{ 
+display: flex;
+align-items: center;
+justify-content: center;
 }
-.hero-image{
- background-image: "Images/Screenshot 2024-12-04 131455.png";
- height:50px;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- position: relative;
-
+.h3{
+color:#FFF;
 }
 
-section{ 
-
+*{
+    box-sizing: border-box;
 }
 /*BWC END*/
