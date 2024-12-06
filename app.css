@@ -204,17 +204,39 @@ section > a {
 /*start for BLACK WIDOW CSS*/
 section{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
-section.center{ 
+
+section{ 
 display: flex;
-align-items: center;
-justify-content: center;
+
+
 }
-.h3{
+h3{
 color:#FFF;
 }
 
-*{
-    box-sizing: border-box;
-}
+#rcorners1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 500px;
+    height: 70px;
+  }
+
+  #rcorners2 {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 500px;
+    height: 100px;
+    font-size: x-large;
+  }
 /*BWC END*/
