@@ -239,4 +239,12 @@ color:#FFF;
     height: 100px;
     font-size: x-large;
   }
+
+  #Bottom1{
+    display: flex;
+    background-image: url("Images/CUR2.png");
+    background-color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
 /*BWC END*/
