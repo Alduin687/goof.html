@@ -210,9 +210,17 @@ section{
 
 section{ 
 display: flex;
+border-style: outset;
+justify-content: center;
+align-items: center;
+color: black;
+background-color: #FAF9F6;
+border-width: 2px;
+border-color: #EA1022;
 
 
 }
+
 h3{
 color:#FFF;
 }
@@ -240,11 +248,5 @@ color:#FFF;
     font-size: x-large;
   }
 
-  #Bottom1{
-    display: flex;
-    background-image: url("Images/CUR2.png");
-    background-color: black;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
+  
 /*BWC END*/
