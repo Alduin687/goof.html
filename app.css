@@ -210,7 +210,7 @@ section{
 
 section{ 
 display: flex;
-border-style: outset;
+border-style: inset;
 justify-content: center;
 align-items: center;
 color: black;
@@ -248,5 +248,10 @@ color:#FFF;
     font-size: x-large;
   }
 
-  
+  section.column {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+  }
 /*BWC END*/
