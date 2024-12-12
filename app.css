@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-    /* font-weight: 100;
+/* font-weight: 100;
     font-style: normal;
     saving that 4 later */
 
@@ -125,6 +125,7 @@ a {
     object-fit: contain;
     margin-right: 5%;
 }
+
 /* END OF NAV BAR */
 
 /* footer start */
@@ -140,45 +141,45 @@ footer {
     width: 100%;
     padding: 2vw;
     align-items: center;
-    margin-top: 100%;
+   
 }
 
-footer > section:nth-child(1) {
+footer>section:nth-child(1) {
     display: flex;
     margin-bottom: 4vw;
 }
 
-footer > section:nth-child(1) > img {
+footer>section:nth-child(1)>img {
     display: flex;
     min-width: 8vw;
 }
 
-footer > section:nth-child(2) {
+footer>section:nth-child(2) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(2) > img {
+footer>section:nth-child(2)>img {
     display: flex;
     min-width: 7vw;
 }
 
-footer > section:nth-child(2) > a {
+footer>section:nth-child(2)>a {
     display: flex;
     margin-bottom: 1.5vw;
 }
 
-footer > section:nth-child(3) {
+footer>section:nth-child(3) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(4) {
+footer>section:nth-child(4) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(5) > img {
+footer>section:nth-child(5)>img {
     display: flex;
     max-width: 6vw;
     margin-bottom: 3vw;
@@ -189,42 +190,44 @@ footer > section:nth-child(5) > img {
     width: 6vw;
 }
 
-.one-fifth > a {
+.one-fifth>a {
     display: flex;
     font-size: 1.5vw;
     text-decoration: none;
     margin-bottom: 1rem;
 }
 
-section > a {
+section>a {
     padding: 4rem;
 }
+
 /* footer end */
 
 /*start for BLACK WIDOW CSS*/
-section{
+/* section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+} */
+
+section {
+    /* color: black; */
+    background-color: #FAF9F6;
 }
 
-section{ 
-display: flex;
-border-style: inset;
-justify-content: center;
-align-items: center;
-color: black;
-background-color: #FAF9F6;
-border-width: 2px;
-border-color: #EA1022;
+.flex {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-h3{
-color:#FFF;
+h3 {
+    color: #FFF;
 }
 
 #rcorners1 {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
@@ -233,12 +236,12 @@ color:#FFF;
     width: 500px;
     height: 70px;
     border-color: #EA1022;
-    border-style:groove;
-  }
+    border-style: groove;
+}
 
-  #rcorners2 {
-    display:flex;
-    align-items:center;
+#rcorners2 {
+    display: flex;
+    align-items: center;
     justify-content: center;
     border-radius: 25px;
     background: black;
@@ -247,29 +250,58 @@ color:#FFF;
     height: 100px;
     font-size: x-large;
     border-color: #EA1022;
-    border-style:groove;
-  }
+    border-style: groove;
+}
 
-  section.column{
-display: flex;
-flex-direction: column;
-  }
+.column {
+    display: flex;
+    flex-direction: column;
+}
 
-  section.div{
+.div {
     display: flex;
     justify-content: flex-start;
-    
-  }
 
-  section.img{
-display:flex;
-justify-content:flex-end;
-align-items: flex-end;
-  }
+}
 
-  section.text{
-    display:flex;
- 
-  }
+.img {
+    width: 58%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    width: 38%;
+    align-self: stretch;
+    padding: 2em;
+
+}
+
+.color {
+    background-color: #000;
+}
+
+.outline {
+    border-width: 2px;
+    border-color: #EA1022;
+    border-style: inset;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-eater {
+    margin-top: -5px
+}
 
 /*BWC END*/
